@@ -134,7 +134,7 @@ def usage():
 
 	print '---------------------------------------------------'
 
-	print 'USAGE: python hulk.py <url>'
+	print 'USAGE: python Ddos.py <url>'
 
 	print 'you can add "safe" after url, to autoshut after dos'
 
@@ -245,7 +245,7 @@ kelas  MonitorThread ( threading . Thread ):
 
 		jika  bendera == 2 :
 
-			cetak  " \ n - Serangan HULK Selesai -"
+			cetak  " \ n - Serangan Ddos Selesai -"
 
 
 #menjalankan 
@@ -266,7 +266,7 @@ lain :
 
 	lain :
 
-		print  "- Serangan HULK Dimulai -"
+		print  "- Serangan Ddos Dimulai -"
 
 		jika  len ( sys . argv ) ==  3 :
 
